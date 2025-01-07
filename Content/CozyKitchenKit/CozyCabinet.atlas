@@ -1,0 +1,15 @@
+CozyKitchenKit.CozyCabinetDown
+loc 0 0 32 48
+piv 16 38
+
+CozyKitchenKit.CozyCabinetRight
+loc 0 48 32 48
+piv 16 86
+
+CozyKitchenKit.CozyCabinetLeft
+loc 0 96 32 48
+piv 16 134
+
+CozyKitchenKit.CozyCabinetUp
+loc 0 144 32 48
+piv 16 182

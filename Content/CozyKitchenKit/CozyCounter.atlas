@@ -1,0 +1,32 @@
+
+CozyKitchenKit.CozyCounterDown
+loc 0 0 48 32
+piv 24 24
+
+CozyKitchenKit.CozyCounterRight
+loc 0 32 48 32
+piv 24 56
+
+CozyKitchenKit.CozyCounterLeft
+loc 0 64 48 32
+piv 24 88
+
+CozyKitchenKit.CozyCounterUp
+loc 0 96 48 32
+piv 24 120
+
+CozyKitchenKit.CozyCounterCornerDown
+loc 0 128 48 32
+piv 24 152
+
+CozyKitchenKit.CozyCounterCornerRight
+loc 0 160 48 32
+piv 24 184
+
+CozyKitchenKit.CozyCounterCornerLeft
+loc 0 192 48 32
+piv 24 216
+
+CozyKitchenKit.CozyCounterCornerUp
+loc 0 224 48 32
+piv 24 248

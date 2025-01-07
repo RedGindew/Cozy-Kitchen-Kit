@@ -1,0 +1,16 @@
+
+CozyKitchenKit.CozyOvenDown
+loc 0 0 48 48
+piv 25 39
+
+CozyKitchenKit.CozyOvenRight
+loc 0 48 48 48
+piv 22 87
+
+CozyKitchenKit.CozyOvenLeft
+loc 0 96 48 48
+piv 24 134
+
+CozyKitchenKit.CozyOvenUp
+loc 0 144 48 48
+piv 24 181

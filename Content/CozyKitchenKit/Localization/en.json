@@ -1,0 +1,18 @@
+{
+    "BuildMode": {
+        "CozyKitchenKit.CozyCounter": "Cozy Counter",
+        "CozyKitchenKit.CozyCounterColors0": "Base",
+        "CozyKitchenKit.CozyCounterColors1": "Surface",
+
+        "CozyKitchenKit.CozyOven": "Cozy Oven",
+
+        "CozyKitchenKit.CozyShelf": "Cozy Shelf",
+        "CozyKitchenKit.CozyShelfColors0": "Wood",
+
+        "CozyKitchenKit.CozyCabinet": "Cozy Cabinet",
+        "CozyKitchenKit.CozyCabinetColors0": "Wood",
+        
+        "CozyKitchenKit.CozySink": "Cozy Apron Sink",
+        "CozyKitchenKit.CozyFridge": "Cozy Fridge"
+    }
+}
