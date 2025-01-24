@@ -35,6 +35,7 @@ public class CozyKitchenKit : Mod
     public override string IssueTrackerUrl => "https://x.com/RedGindew";
     public override string TestedVersionRange => "[0.46.0]";
     private Dictionary<Point, TextureRegion> uiTextures;
+    private Dictionary<Point, TextureRegion> apronTexture;
     public override TextureRegion Icon => this.uiTextures[new Point(0, 0)];
 
     public List<string> budgetOvenDes;
@@ -44,6 +45,7 @@ public class CozyKitchenKit : Mod
     {
         CozyKitchenKit.Logger = logger;
         texturePacker.Add(new UniformTextureAtlas(content.Load<Texture2D>("UITex"), 8, 8), r => this.uiTextures = r, 1, true, true);
+        texturePacker.Add(new UniformTextureAtlas(content.Load<Texture2D>("Apron"), 4, 5), r => this.apronTexture = r, 1, true, true);
     }
 
     public override void AddGameContent(GameImpl game, ModInfo info)
@@ -98,6 +100,8 @@ public class CozyKitchenKit : Mod
             Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.White){ Defaults = new int[] { 1, 0 }, PreviewName = "CozyKitchenKit.CozyCabinet" },
             DefaultRotation = MLEM.Maths.Direction2.Right
         });
+
+        Clothes.Register(new Clothes("CozyKitchenKit.CozyApron", ClothesLayer.Accessories, this.apronTexture, new Point(0, 0), 100, ClothesIntention.Everyday, StylePreference.Neutral, ColorScheme.MutedPastels));
     }
 
     public override IEnumerable<string> GetCustomFurnitureTextures(ModInfo info)

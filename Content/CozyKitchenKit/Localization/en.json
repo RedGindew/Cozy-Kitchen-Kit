@@ -14,5 +14,8 @@
         
         "CozyKitchenKit.CozySink": "Cozy Apron Sink",
         "CozyKitchenKit.CozyFridge": "Cozy Fridge"
+    },
+    "Clothes": {
+        "CozyKitchenKit.CozyApron": "Cozy Apron"
     }
 }
