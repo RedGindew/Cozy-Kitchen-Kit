@@ -1,0 +1,31 @@
+CozyKitchenKit.CabinetTestDown
+loc 0 0 34 64
+piv 17 54
+
+CozyKitchenKit.CabinetTestRight
+loc 0 64 34 64
+piv 17 118
+
+CozyKitchenKit.CabinetTestLeft
+loc 0 128 34 64
+piv 17 182
+
+CozyKitchenKit.CabinetTestUp
+loc 0 192 34 64
+piv 17 246
+
+CozyKitchenKit.CabinetTestCornerDown
+loc 0 256 34 64
+piv 17 310
+
+CozyKitchenKit.CabinetTestCornerRight
+loc 0 320 34 64
+piv 17 374
+
+CozyKitchenKit.CabinetTestCornerLeft
+loc 0 384 34 64
+piv 17 438
+
+CozyKitchenKit.CabinetTestCornerUp
+loc 0 448 34 64
+piv 17 502

@@ -33,7 +33,7 @@ public class CozyKitchenKit : Mod
     public override string Name => "Cozy Kitchen Kit";
     public override string Description => "Live your cottagecore dreams!";
     public override string IssueTrackerUrl => "https://x.com/RedGindew";
-    public override string TestedVersionRange => "[0.46.0]";
+    public override string TestedVersionRange => "[0.47.0]";
     private Dictionary<Point, TextureRegion> uiTextures;
     private Dictionary<Point, TextureRegion> apronTexture;
     public override TextureRegion Icon => this.uiTextures[new Point(0, 0)];

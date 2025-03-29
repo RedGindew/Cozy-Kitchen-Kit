@@ -13,7 +13,9 @@
         "CozyKitchenKit.CozyCabinetColors0": "Wood",
         
         "CozyKitchenKit.CozySink": "Cozy Apron Sink",
-        "CozyKitchenKit.CozyFridge": "Cozy Fridge"
+        "CozyKitchenKit.CozyFridge": "Cozy Fridge",
+
+        "CozyKitchenKit.CabinetTest": "Cozy Cabinets"
     },
     "Clothes": {
         "CozyKitchenKit.CozyApron": "Cozy Apron"
